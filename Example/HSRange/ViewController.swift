@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import HSRange
 
 extension Optional where Wrapped == String {
     var doubleValue: Double {
@@ -63,7 +63,7 @@ class ViewController: UIViewController {
         let rangeConverter = HSRangeConverter(range1: firstRange,
                                               range2: secondRange)
         let output = rangeConverter.toRange2(of: self.textfieldOutputFirstRange.text.doubleValue)
-        self.textfieldOutputSecondRange.text = String(format: "%.0f", [output])
+        self.textfieldOutputSecondRange.text = "\(output)" //String(format: "%.2f", [output])
     }
     
     @IBAction func outputSecondRangeValueDidChange(_ sender: UITextField) {
@@ -79,8 +79,8 @@ class ViewController: UIViewController {
         
         let rangeConverter = HSRangeConverter(range1: firstRange,
                                               range2: secondRange)
-        let output = rangeConverter.toRange1(of: self.textfieldOutputSecondRange.text.doubleValue)
-        self.textfieldOutputFirstRange.text = String(format: "%.0f", [output])
+        let output: Double = rangeConverter.toRange1(of: self.textfieldOutputSecondRange.text.doubleValue)
+        self.textfieldOutputFirstRange.text = "\(output)" //String(format: "%.2f", [output])
     }
     
     
