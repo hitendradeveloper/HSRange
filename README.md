@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/HSRange.svg?style=flat)](http://cocoapods.org/pods/HSRange)
 [![Platform](https://img.shields.io/cocoapods/p/HSRange.svg?style=flat)](http://cocoapods.org/pods/HSRange)
 
+## Demo
+![HSRange](https://github.com/hitendradeveloper/HSRange/blob/master/HSRangeDemo.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
