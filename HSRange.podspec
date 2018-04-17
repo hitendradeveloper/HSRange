@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HSRange'
-  s.version          = '1.0'
+  s.version          = '1.1'
   s.summary          = 'Simple and Elegant Range(A,B) to Range(P,Q) mapper in less then five lines of code.'
   
 # This description is used to generate tags and improve search results.

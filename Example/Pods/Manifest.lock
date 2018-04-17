@@ -1,5 +1,5 @@
 PODS:
-  - HSRange (0.1.0)
+  - HSRange (1.0)
 
 DEPENDENCIES:
   - HSRange (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HSRange: fe5710b005f9ac6d13b3e81a3ca46def1c78580e
+  HSRange: f4231b2c9a09b9648e58eee717ebb6662837237e
 
 PODFILE CHECKSUM: 48b95f6e94d4be717adfd4b7ba0d48085067477f
 

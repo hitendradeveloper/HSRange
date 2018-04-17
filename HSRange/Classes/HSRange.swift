@@ -10,8 +10,8 @@ import Foundation
 
 //MARK:- Backbone structure behind the scene
 public struct HSRange {
-    var low: Double!
-    var high: Double!
+    public var low: Double!
+    public var high: Double!
     
     public init(low: Double, high: Double) {
         self.low = low
@@ -21,10 +21,15 @@ public struct HSRange {
 
 //MARK:- Helpers
 public extension HSRange {
-    var mid: Double {
+    //middle value of the range
+    //e.g. Range(-100,100), this will return 0
+    public var mid: Double {
         return (self.low + self.high)/2.0
     }
-    func innerValue(value: Double) -> Double {
+    
+    //this returns the value inside of range
+    //e.g. Range(-100,100), if you pass -200, this will return -100
+    public func innerValue(value: Double) -> Double {
         return min(max(value,self.low),self.high)
     }
 }

@@ -10,8 +10,8 @@ import Foundation
 
 //MARK:- Converter
 public struct HSRangeConverter {
-    var range1: HSRange!
-    var range2: HSRange!
+    public var range1: HSRange!
+    public var range2: HSRange!
     
     public init(range1: HSRange, range2: HSRange) {
         self.range1 = range1
