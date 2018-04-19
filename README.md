@@ -1,6 +1,6 @@
 # HSRange
 
-[![CI Status](http://img.shields.io/travis/Hitendra Solanki/HSRange.svg?style=flat)](https://travis-ci.org/Hitendra Solanki/HSRange)
+[![CI Status](http://img.shields.io/travis/hitendradeveloper/HSRange.svg?style=flat)](https://travis-ci.org/hitendradeveloper/HSRange)
 [![Version](https://img.shields.io/cocoapods/v/HSRange.svg?style=flat)](http://cocoapods.org/pods/HSRange)
 [![License](https://img.shields.io/cocoapods/l/HSRange.svg?style=flat)](http://cocoapods.org/pods/HSRange)
 [![Platform](https://img.shields.io/cocoapods/p/HSRange.svg?style=flat)](http://cocoapods.org/pods/HSRange)
@@ -8,11 +8,32 @@
 ## Demo
 ![HSRange](https://github.com/hitendradeveloper/HSRange/blob/master/HSRangeDemo.gif)
 
-## Example
+## Example Project
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+| Swift  | XCode |
+| --- | ------------- |
+| 3, 4  | >= 8  |
+
+## How to use?
+1. Create object of HSRangeConverter by passing two object of HSRange
+   - Object of first range (A,B)
+   - Object of second range (P,Q)
+2. Convert your value from one range to other range.
+
+```Swift
+let firstRange = HSRange(low: 10, high: 80)
+let secondRange = HSRange(low: 0.5, high: 0.9)
+
+//Step1:
+let rangeConverter = HSRangeConverter(range1: firstRange, range2: secondRange)  
+        
+//Step2:        
+let valueInFirstRange = rangeConverter.toRange2(of: 45) //this will give 0.7
+let valueInSecondRange = rangeConverter.toRange2(of: 80) //this will give 0.9
+```
 
 ## Installation
 
