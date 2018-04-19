@@ -38,11 +38,27 @@ let valueInSecondRange = rangeConverter.toRange1(of: 0.9) //this will give 80
 ## Installation
 
 HSRange is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+it follow below steps. 
+
+1. simply add the following line to your Podfile:
 
 ```ruby
 pod 'HSRange'
 ```
+2. Open terminal, change your current directory to project directory using `cd`.
+3. Install pod.
+
+```ruby
+pod install
+```
+### Possible Error:
+`[!] Unable to find a specification for 'HSRange'` 
+### Solution:
+
+```ruby
+pod setup
+```
+
 
 ## Author
 
