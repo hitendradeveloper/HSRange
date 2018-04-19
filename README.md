@@ -32,7 +32,7 @@ let rangeConverter = HSRangeConverter(range1: firstRange, range2: secondRange)
         
 //Step2:        
 let valueInFirstRange = rangeConverter.toRange2(of: 45) //this will give 0.7
-let valueInSecondRange = rangeConverter.toRange2(of: 80) //this will give 0.9
+let valueInSecondRange = rangeConverter.toRange1(of: 0.9) //this will give 80
 ```
 
 ## Installation
