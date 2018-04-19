@@ -51,9 +51,9 @@ pod 'HSRange'
 ```ruby
 pod install
 ```
-### Possible Error:
+##### Possible Error:
 `[!] Unable to find a specification for 'HSRange'` 
-### Solution:
+##### Solution:
 
 ```ruby
 pod setup
