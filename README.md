@@ -13,7 +13,7 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-| Swift  | XCode | Tag |
+| Swift  | XCode | Tag/Pod version |
 | --- | ------------- | ------ |
 | 3.x  | >= 8.x  | 1.1 |
 | 4.0 - 4.1  | >= 9.x  | 1.1 |
