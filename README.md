@@ -13,9 +13,12 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
-| Swift  | XCode |
-| --- | ------------- |
-| 3, 4  | >= 8  |
+| Swift  | XCode | Tag |
+| --- | ------------- | ------ |
+| 3, 4  | >= 8  | 1.1 |
+| --- | ------------- | ------ |
+| 4.2  | >= 10.x  | 4.2 |
+
 
 ## How to use?
 1. Create object of HSRangeConverter by passing two object of HSRange
