@@ -15,7 +15,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 | Swift  | XCode | Tag |
 | --- | ------------- | ------ |
-| 3, 4  | >= 8  | 1.1 |
+| 3.x  | >= 8.x  | 1.1 |
+| 4.0 - 4.1  | >= 9.x  | 1.1 |
 | 4.2  | >= 10.x  | 4.2 |
 
 
