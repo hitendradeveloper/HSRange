@@ -66,6 +66,7 @@ pod setup
 ## Author
 
 Hitendra Solanki, hitendra.developer@gmail.com
+twitter: @hitendrahckr
 
 ## License
 
