@@ -54,15 +54,27 @@ class ViewController: UIViewController {
             self.textfieldOutputSecondRange.text = ""
             return
         }
-        
-        let firstRange = HSRange(low: self.textfieldFirstRangeValue1.text.doubleValue,
-                                 high: self.textfieldFirstRangeValue2.text.doubleValue)
-        let secondRange = HSRange(low: self.textfieldSecondRangeValue1.text.doubleValue,
-                                 high: self.textfieldSecondRangeValue2.text.doubleValue)
-        
-        let rangeConverter = HSRangeConverter(range1: firstRange,
-                                              range2: secondRange)
-        let output = rangeConverter.toRange2(of: self.textfieldOutputFirstRange.text.doubleValue)
+      
+      //    Hitendra Solanki:
+//        older intializer: HSRangeConverter using older intializer which requires temporary variables of HSRange
+//        let firstRange = HSRange(low: self.textfieldFirstRangeValue1.text.doubleValue,
+//                                 high: self.textfieldFirstRangeValue2.text.doubleValue)
+//        let secondRange = HSRange(low: self.textfieldSecondRangeValue1.text.doubleValue,
+//                                 high: self.textfieldSecondRangeValue2.text.doubleValue)
+//
+//        let rangeConverter = HSRangeConverter(range1: firstRange,
+//                                              range2: secondRange)
+//        let output = rangeConverter.toRange2(of: self.textfieldOutputFirstRange.text.doubleValue) //older API
+      
+//        Newer intializer: HSRangeConverter using newer intializer which doesn't requires any temporary variables of HSRange
+      
+      let rangeConverter = HSRangeConverter(range1low: self.textfieldFirstRangeValue1.text.doubleValue,
+                                            range1high: self.textfieldFirstRangeValue2.text.doubleValue,
+                                            range2low: self.textfieldSecondRangeValue1.text.doubleValue,
+                                            range2high: self.textfieldSecondRangeValue2.text.doubleValue)
+      let output = rangeConverter.convertToRange2(valueFromRange1: self.textfieldOutputFirstRange.text.doubleValue)
+      
+      
         self.textfieldOutputSecondRange.text = "\(output)" //String(format: "%.2f", [output])
     }
     
@@ -79,7 +91,7 @@ class ViewController: UIViewController {
         
         let rangeConverter = HSRangeConverter(range1: firstRange,
                                               range2: secondRange)
-        let output: Double = rangeConverter.toRange1(of: self.textfieldOutputSecondRange.text.doubleValue)
+      let output: Double = rangeConverter.convertToRange1(valueFromRange2: self.textfieldOutputSecondRange.text.doubleValue)
         self.textfieldOutputFirstRange.text = "\(output)" //String(format: "%.2f", [output])
     }
     
