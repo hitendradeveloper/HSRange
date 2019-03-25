@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HSRange'
-  s.version          = '5.0.10'
+  s.version          = '5.0.11'
   s.summary          = 'Simple and Elegant Range(A,B) to Range(P,Q) mapper in less then five lines of code.'
   s.requires_arc = true
 
@@ -27,13 +27,14 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Hitendra Solanki' => 'hitendra.developer@gmail.com' }
-  s.source           = { :git => 'https://github.com/hitendradeveloper/HSRange.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hitendradeveloper/HSRange.git', :tag => "5.0.11" }
   s.social_media_url = 'https://twitter.com/hitendrahckr'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'HSRange/Classes/**/*'
 
-  s.swift_version = "5.0"
+  s.swift_versions = ['4.0','4.1','4.2','4.3','5.0']
+  # s.swift_version = '5.0'
 
 end
