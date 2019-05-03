@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import HSRange
+//import HSRange
 
 extension Optional where Wrapped == String {
     var doubleValue: Double {
