@@ -15,7 +15,9 @@
 [![Platform](https://img.shields.io/cocoapods/p/HSRange.svg?style=flat)](http://cocoapods.org/pods/HSRange)
 
 ## Demo
-![HSRange](https://github.com/hitendradeveloper/HSRange/blob/master/HSRangeDemo.gif)
+<img src="https://github.com/hitendradeveloper/HSRange/blob/master/Assests/HSColorRange.gif" alt="HSColorRange" align="right" />
+![HSRange](https://github.com/hitendradeveloper/HSRange/blob/master/Assests/HSRangeDemo.gif)
+
 
 ## Example Project
 
