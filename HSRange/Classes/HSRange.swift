@@ -33,3 +33,16 @@ public extension HSRange {
         return min(max(value,self.low),self.high)
     }
 }
+
+//MARK: HSRange Invart range Help
+public extension HSRange {
+  var isInvert: Bool {
+    return self.low > self.high
+  }
+  var invartRange: HSRange {
+    return HSRange(low: self.high, high: self.low)
+  }
+  func invartValue(value: Double) -> Double {
+    return self.low + self.high - value
+  }
+}

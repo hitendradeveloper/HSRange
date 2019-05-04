@@ -13,8 +13,9 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		C50685A23A960D24DD513A1D /* Pods_HSRange_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E95F92E162DF535C1DDE91A /* Pods_HSRange_Example.framework */; };
+		F70E5E17227D61AC006F7B6E /* HSRangeColorConvertorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E5E16227D61AC006F7B6E /* HSRangeColorConvertorViewController.swift */; };
+		F70E5E1A227D824B006F7B6E /* HSRangeBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7272F5E2084AE310050E64B /* HSRangeBasicViewController.swift */; };
 		F7272F5D2084AE2B0050E64B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7272F5C2084AE2B0050E64B /* Main.storyboard */; };
-		F7272F5F2084AE310050E64B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7272F5E2084AE310050E64B /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +45,9 @@
 		AF7A755D0498874B41C5D235 /* Pods-HSRange_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSRange_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSRange_Tests/Pods-HSRange_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DE6524DBE674FBAAF376085C /* Pods-HSRange_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSRange_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HSRange_Example/Pods-HSRange_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F6CF5FD3E7DAED6B335AD0E8 /* Pods_HSRange_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSRange_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F70E5E16227D61AC006F7B6E /* HSRangeColorConvertorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSRangeColorConvertorViewController.swift; sourceTree = "<group>"; };
 		F7272F5C2084AE2B0050E64B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		F7272F5E2084AE310050E64B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7272F5E2084AE310050E64B /* HSRangeBasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSRangeBasicViewController.swift; sourceTree = "<group>"; };
 		FF088E3C4C2B2DCB6B47CD1B /* Pods-HSRange_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HSRange_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HSRange_Example/Pods-HSRange_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				F7272F5E2084AE310050E64B /* ViewController.swift */,
+				F7272F5E2084AE310050E64B /* HSRangeBasicViewController.swift */,
+				F70E5E16227D61AC006F7B6E /* HSRangeColorConvertorViewController.swift */,
 				F7272F5C2084AE2B0050E64B /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -323,8 +326,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7272F5F2084AE310050E64B /* ViewController.swift in Sources */,
+				F70E5E17227D61AC006F7B6E /* HSRangeColorConvertorViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				F70E5E1A227D824B006F7B6E /* HSRangeBasicViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
