@@ -20,7 +20,7 @@
 <p>
 <img src="https://github.com/hitendradeveloper/HSRange/blob/master/Assests/HSRangeDemo.gif" alt="HSRange" align="left" />
 <img src="" alt="" />
-<img src="https://github.com/hitendradeveloper/HSRange/blob/master/Assests/HSColorRange.gif" alt="HSColorRange" align="" />
+<img src="https://github.com/hitendradeveloper/HSRange/blob/master/Assests/HSColorRange.gif" alt="HSColorRange" align="right" />
 <p>
 
 
