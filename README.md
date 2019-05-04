@@ -1,4 +1,13 @@
 # HSRange
+## Description
+
+<img src="https://github.com/hitendradeveloper/HSRange/blob/master/Assests/HSRange%20Radius%20128.png" alt="HSRange" align="right" />
+
+**HSRangeConvertor** Simple and Elegant Range[A,B] to Range[P,Q] mapper in less then three lines of code.
+  E.g.  Suppose we have Range[10,90] and Range[20,80],
+        Value 60 of Range[10,90] will be mapped to value 57.5 of Range[20,80].
+
+**HSColorRangeConvertor** Simple and Elegant Range[A,B] to ColorRange[Color1, Color2] mapper in less then five lines of code.
 
 [![CI Status](http://img.shields.io/travis/hitendradeveloper/HSRange.svg?style=flat)](https://travis-ci.org/hitendradeveloper/HSRange)
 [![Version](https://img.shields.io/cocoapods/v/HSRange.svg?style=flat)](http://cocoapods.org/pods/HSRange)
@@ -23,10 +32,10 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 
 
-## How to use?
+## How to use HSRange | HSRangeConvertor? 
 1. Create object of HSRangeConverter by passing two object of HSRange
-   - Object of first range (A,B)
-   - Object of second range (P,Q)
+   - Object of first range [A,B]
+   - Object of second range [P,Q]
 2. Convert your value from one range to other range.
 
 ```Swift
@@ -40,6 +49,9 @@ let rangeConverter = HSRangeConverter(range1: firstRange, range2: secondRange)
 let valueInFirstRange = rangeConverter.toRange2(of: 45) //this will give 0.7
 let valueInSecondRange = rangeConverter.toRange1(of: 0.9) //this will give 80
 ```
+
+## How to use HSColorRange | HSColorRangeConvertor? 
+Check the demo project. Its has identical steps as above example, just second range is a range of two colors instead of two double values.
 
 ## Installation
 
