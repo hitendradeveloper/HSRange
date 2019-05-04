@@ -25,7 +25,7 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon without background" translatesAutoresizingMaskIntoConstraints="NO" id="kRB-Fj-Ic8">
-                    <rect key="frame" x="59.5" y="155.5" width="256" height="256"/>
+                    <rect key="frame" x="59.5" y="150.5" width="256" height="256"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="256" id="2Oa-td-jyf"/>
                         <constraint firstAttribute="width" secondItem="kRB-Fj-Ic8" secondAttribute="height" multiplier="1:1" id="by4-wA-IqU"/>
@@ -43,7 +43,7 @@
                 <constraint firstItem="kId-c2-rCX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="XYE-mW-9br"/>
                 <constraint firstAttribute="bottom" secondItem="f1g-GS-gMK" secondAttribute="bottom" constant="-100" id="dKO-u2-N0h"/>
                 <constraint firstAttribute="trailing" secondItem="f1g-GS-gMK" secondAttribute="trailing" constant="-100" id="vDp-Iv-62D"/>
-                <constraint firstItem="kRB-Fj-Ic8" firstAttribute="centerY" secondItem="f1g-GS-gMK" secondAttribute="centerY" constant="-50" id="vI0-4o-5KY"/>
+                <constraint firstItem="kRB-Fj-Ic8" firstAttribute="centerY" secondItem="f1g-GS-gMK" secondAttribute="centerY" constant="-55" id="vI0-4o-5KY"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <point key="canvasLocation" x="548" y="454.72263868065971"/>
