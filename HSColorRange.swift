@@ -2,7 +2,8 @@
 //  HSColorRange.swift
 //  HSRange
 //
-//  Created by Hitendra on 03/05/19.
+//  Created by Hitendra Solanki on 03/05/19.
+//  Copyright © 2017 Hitendra Solanki. All rights reserved.
 //
 
 import Foundation
