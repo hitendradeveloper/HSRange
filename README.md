@@ -16,7 +16,7 @@
 
 ## Demo
 <img src="https://github.com/hitendradeveloper/HSRange/blob/master/Assests/HSColorRange.gif" alt="HSColorRange" align="right" />
-![HSRange](https://github.com/hitendradeveloper/HSRange/blob/master/Assests/HSRangeDemo.gif)
+<img src="https://github.com/hitendradeveloper/HSRange/blob/master/Assests/HSRangeDemo.gif" alt="HSRange" align="left" />
 
 
 ## Example Project
