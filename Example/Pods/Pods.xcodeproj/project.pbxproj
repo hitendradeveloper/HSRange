@@ -18,9 +18,9 @@
 		94647CF14C8DA8472C391AC5C10A49C1 /* HSRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAD6FECB5D990FD0C847A4AC65D206C /* HSRange.swift */; };
 		D548A6F2652B54B4AB8956026C2A9C46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F54459883401DB272CF1D1EDD92063A3 /* HSRange-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D48CB1E5AB8D8B89FAA95B0E0DB383C /* HSRange-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F70E5E19227D6360006F7B6E /* HSColorRangeConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E5E18227D6360006F7B6E /* HSColorRangeConvertor.swift */; };
-		F74B0A19227C706F00A94103 /* HSColorRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B0A18227C706F00A94103 /* HSColorRange.swift */; };
-		F74B0A1B227C70BB00A94103 /* HSColorRange+ConversionAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74B0A1A227C70BB00A94103 /* HSColorRange+ConversionAPIs.swift */; };
+		F70E5E1E227D88DE006F7B6E /* HSColorRangeConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E5E1B227D88DD006F7B6E /* HSColorRangeConvertor.swift */; };
+		F70E5E1F227D88DE006F7B6E /* HSColorRange+ConversionAPIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E5E1C227D88DD006F7B6E /* HSColorRange+ConversionAPIs.swift */; };
+		F70E5E20227D88DE006F7B6E /* HSColorRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70E5E1D227D88DD006F7B6E /* HSColorRange.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,9 +76,9 @@
 		E53D0DA7A6C2144B8F2BA730C4F35421 /* HSRange.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HSRange.modulemap; sourceTree = "<group>"; };
 		F321F5EE7557EBCEFD2E1D33816BB05B /* HSRange-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSRange-prefix.pch"; sourceTree = "<group>"; };
 		F48EE17D66323391FA18E936C06E8878 /* Pods_HSRange_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSRange_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F70E5E18227D6360006F7B6E /* HSColorRangeConvertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSColorRangeConvertor.swift; sourceTree = "<group>"; };
-		F74B0A18227C706F00A94103 /* HSColorRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HSColorRange.swift; sourceTree = "<group>"; };
-		F74B0A1A227C70BB00A94103 /* HSColorRange+ConversionAPIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HSColorRange+ConversionAPIs.swift"; sourceTree = "<group>"; };
+		F70E5E1B227D88DD006F7B6E /* HSColorRangeConvertor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HSColorRangeConvertor.swift; path = HSRange/Classes/HSColorRangeConvertor.swift; sourceTree = "<group>"; };
+		F70E5E1C227D88DD006F7B6E /* HSColorRange+ConversionAPIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "HSColorRange+ConversionAPIs.swift"; path = "HSRange/Classes/HSColorRange+ConversionAPIs.swift"; sourceTree = "<group>"; };
+		F70E5E1D227D88DD006F7B6E /* HSColorRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HSColorRange.swift; path = HSRange/Classes/HSColorRange.swift; sourceTree = "<group>"; };
 		F998BBB377A3F6497D87E62BD12EB681 /* Pods-HSRange_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSRange_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,9 +143,9 @@
 			children = (
 				ACAD6FECB5D990FD0C847A4AC65D206C /* HSRange.swift */,
 				622E71F0DC933BC1298D660884AD1F29 /* HSRangeConverter.swift */,
-				F74B0A18227C706F00A94103 /* HSColorRange.swift */,
-				F70E5E18227D6360006F7B6E /* HSColorRangeConvertor.swift */,
-				F74B0A1A227C70BB00A94103 /* HSColorRange+ConversionAPIs.swift */,
+				F70E5E1D227D88DD006F7B6E /* HSColorRange.swift */,
+				F70E5E1B227D88DD006F7B6E /* HSColorRangeConvertor.swift */,
+				F70E5E1C227D88DD006F7B6E /* HSColorRange+ConversionAPIs.swift */,
 				193B921EAC48B611DBE0DD9B37344B2D /* Pod */,
 				359E7047A7147363BEDF2ACE2D17007A /* Support Files */,
 			);
@@ -361,12 +361,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F70E5E1F227D88DE006F7B6E /* HSColorRange+ConversionAPIs.swift in Sources */,
 				39B4DE171E37BD83C2750C7644F2DC06 /* HSRange-dummy.m in Sources */,
-				F74B0A1B227C70BB00A94103 /* HSColorRange+ConversionAPIs.swift in Sources */,
-				F74B0A19227C706F00A94103 /* HSColorRange.swift in Sources */,
+				F70E5E20227D88DE006F7B6E /* HSColorRange.swift in Sources */,
 				94647CF14C8DA8472C391AC5C10A49C1 /* HSRange.swift in Sources */,
-				F70E5E19227D6360006F7B6E /* HSColorRangeConvertor.swift in Sources */,
 				52BA6EF5840D28FF06DDC64C9FAD6B5F /* HSRangeConverter.swift in Sources */,
+				F70E5E1E227D88DE006F7B6E /* HSColorRangeConvertor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
