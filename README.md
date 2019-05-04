@@ -19,7 +19,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 | 4.0 - 4.1  | >= 9.x  | 1.1 |
 | 4.2 - 4.3  | >= 10.0.x to <= 10.1.x  | 4.2 |
 | 5.0 | >= 10.2  | 5.0 |
-| 4.0 to 5.0 | 9.0 to 10.2  | 5.0.1 |
+| 4.0 to 5.0 | 9.0 to 10.2  | 5.0.5 |
 
 
 
