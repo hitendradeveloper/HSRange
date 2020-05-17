@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches: [ master, test ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+
+    runs-on: macos-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run tests
+      run: xcodebuild -workspace "HSRange.xcworkspace" -scheme "HSRange-Example" -destination 'platform=iOS Simulator,name=iPhone 8' test
+    - name: Build App
+      run: xcodebuild -workspace "HSRange.xcworkspace" -scheme "HSRange-Example" -destination 'generic/platform=iOS' -configuration Release build Code_SIGNING_ALLOWED=NO
