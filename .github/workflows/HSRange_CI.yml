@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Run tests
-      run: xcodebuild -workspace "/Example/HSRange.xcworkspace" -scheme "HSRange-Example" -destination 'platform=iOS Simulator,name=iPhone 8' test
+      run: xcodebuild -workspace "Example/HSRange.xcworkspace" -scheme "HSRange-Example" -destination 'platform=iOS Simulator,name=iPhone 8' test
     - name: Build App
-      run: xcodebuild -workspace "/Example/HSRange.xcworkspace" -scheme "HSRange-Example" -destination 'generic/platform=iOS' -configuration Release build Code_SIGNING_ALLOWED=NO
+      run: xcodebuild -workspace "Example/HSRange.xcworkspace" -scheme "HSRange-Example" -destination 'generic/platform=iOS' -configuration Release build Code_SIGNING_ALLOWED=NO
