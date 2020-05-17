@@ -13,9 +13,11 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: GOTO 'Example'
+      run: cd Example
     - name: Pod update
       run: |
         cd Example
         pod update
     - name: Run tests
-      run: xcodebuild -workspace "Example/HSRange.xcworkspace" -scheme "HSRange-Example" -destination 'platform=iOS Simulator,name=iPhone 8' test
+      run: xcodebuild -workspace "HSRange.xcworkspace" -scheme "HSRange-Example" -destination 'platform=iOS Simulator,name=iPhone 8' test
