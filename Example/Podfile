@@ -5,7 +5,7 @@ target 'HSRange_Example' do
 
   target 'HSRange_Tests' do
     inherit! :search_paths
-
+    pod 'HSRange', :path => '../'
     
   end
 end

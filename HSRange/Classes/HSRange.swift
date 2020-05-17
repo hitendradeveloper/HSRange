@@ -27,7 +27,7 @@
 import Foundation
 
 //MARK:- Backbone structure behind the scene which acts as Closed range
-public struct HSRange {
+public struct HSRange: Equatable {
     public var low: Double!
     public var high: Double!
     
@@ -67,4 +67,20 @@ public extension HSRange {
   func invartValue(value: Double) -> Double {
     return self.low + self.high - value
   }
+}
+
+extension HSRange: CustomStringConvertible, CustomDebugStringConvertible {
+    public var debugDescription: String {
+        let low: Double = self.low
+        let high: Double = self.high
+        return "[\(String(describing: low)),\(String(describing: high))]"
+    }
+    
+    public var description: String {
+        let low: Double = self.low
+        let high: Double = self.high
+        return "HSRange[\(String(describing: low)),\(String(describing: high))]"
+    }
+    
+    
 }

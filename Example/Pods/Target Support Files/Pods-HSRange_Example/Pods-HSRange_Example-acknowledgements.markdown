@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## HSRange
 
-Copyright (c) 2018 Hitendra Solanki <hitendra.developer@gmail.com>
+Copyright (c) 2017-2020 Hitendra Solanki <hitendra.developer@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
