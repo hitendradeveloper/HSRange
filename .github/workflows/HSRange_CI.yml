@@ -13,7 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Pod update
+      run: |
+        cd Example
+        pod update
     - name: Run tests
       run: xcodebuild -workspace "Example/HSRange.xcworkspace" -scheme "HSRange-Example" -destination 'platform=iOS Simulator,name=iPhone 8' test
-    - name: Build App
-      run: xcodebuild -workspace "Example/HSRange.xcworkspace" -scheme "HSRange-Example" -destination 'generic/platform=iOS' -configuration Release build Code_SIGNING_ALLOWED=NO
