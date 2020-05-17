@@ -28,6 +28,7 @@ import XCTest
 @testable import HSRange
 
 class HSRangeTests: XCTestCase {
+    
     func test_initializer() {
         let low: Double = 10;
         let high: Double = 20;
