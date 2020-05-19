@@ -35,6 +35,7 @@ class HSRangeTests: XCTestCase {
         let range = HSRange(low: low, high: high)
         
         XCTAssert(range.low == low, "range.low must be \(low) [found \(String(describing: range.low)).]")
+        
         XCTAssert(range.high == high, "range.high must be \(high) [found \(String(describing: range.high)).]")
     }
     
