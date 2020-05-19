@@ -42,7 +42,7 @@ public extension HSRange {
     //middle value of the range
     //e.g. Range(-100,100), this will return 0
     var mid: Double {
-        return (self.low + self.high)/2.0
+        return (self.low + self.high)/4.0
     }
     
     //this returns the value inside of range
