@@ -32,11 +32,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 | Swift  | XCode | Tag/Pod version |
 | --- | ------------- | ------ |
-| 3.x  | >= 8.x  | 1.1 |
-| 4.0 - 4.1  | >= 9.x  | 1.1 |
-| 4.2 - 4.3  | >= 10.0.x to <= 10.1.x  | 4.2 |
-| 5.0 | >= 10.2  | 5.0 |
+| 4.0 to 5.2 | 9.0 to 11.4.1  | 5.2.0 |
 | 4.0 to 5.0 | 9.0 to 10.2  | 5.0.5 |
+| 5.0 | >= 10.2  | 5.0 |
+| 4.2 - 4.3  | >= 10.0.x to <= 10.1.x  | 4.2 |
+| 4.0 - 4.1  | >= 9.x  | 1.1 |
+| 3.x  | >= 8.x  | 1.1 |
 
 
 
@@ -86,7 +87,7 @@ pod setup
 ```
 
 ## Major Release
-pod version 5.0.1 support swift 4 and swift 5 both as well as XCode 9 and XCode 10 both
+pod version 5.2.0 support swift 4 and swift 5 both as well as XCode 9 all version, XCode 10 all version, and XCode 11 all version upto 11.4.1.
 
 ## Author
 
