@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HSRange'
-  s.version          = '5.2'
+  s.version          = '5.2.0'
   s.summary          = 'Simple and Elegant Range(A,B) to Range(P,Q) mapper in less then five lines of code.'
   s.requires_arc = true
 
