@@ -1,4 +1,8 @@
 # HSRange
+
+[![CI](https://github.com/hitendradeveloper/HSRange/actions/workflows/HSRange_CI.yml/badge.svg)](https://github.com/hitendradeveloper/HSRange/actions/workflows/HSRange_CI.yml)
+[![Version](https://img.shields.io/cocoapods/v/HSRange.svg?style=flat)](http://cocoapods.org/pods/HSRange)
+
 ## Description
 
 <img src="https://github.com/hitendradeveloper/HSRange/blob/master/Assests/HSRange%20Radius%20128.png" alt="HSRange" align="right" />
@@ -8,12 +12,6 @@
         Value 60 of Range[10,90] will be mapped to value 57.5 of Range[20,80].
 
 **HSColorRangeConvertor** Simple and Elegant Range[A,B] to ColorRange[Color1, Color2] mapper in less then five lines of code.
-
-[![CI](https://github.com/hitendradeveloper/HSRange/actions/workflows/HSRange_CI.yml/badge.svg)](https://github.com/hitendradeveloper/HSRange/actions/workflows/HSRange_CI.yml)
-[![Version](https://img.shields.io/cocoapods/v/HSRange.svg?style=flat)](http://cocoapods.org/pods/HSRange)
-[![License](https://img.shields.io/cocoapods/l/HSRange.svg?style=flat)](http://cocoapods.org/pods/HSRange)
-[![Platform](https://img.shields.io/cocoapods/p/HSRange.svg?style=flat)](http://cocoapods.org/pods/HSRange)
-
 
 
 ## Demo
