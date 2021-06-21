@@ -33,11 +33,6 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 | Swift  | XCode | Tag/Pod version |
 | --- | ------------- | ------ |
 | 4.0 to 5.4 | 9.0 to 12  | 5.4.0 |
-| 4.0 to 5.2 | 9.0 to 11.4.1  | 5.2.0 |
-| 4.0 to 5.0 | 9.0 to 10.2  | 5.0.5 |
-| 5.0 | >= 10.2  | 5.0 |
-| 4.2 - 4.3  | >= 10.0.x to <= 10.1.x  | 4.2 |
-| 4.0 - 4.1  | >= 9.x  | 1.1 |
 | 3.x  | >= 8.x  | 1.1 |
 
 
